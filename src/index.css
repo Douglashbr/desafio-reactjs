@@ -1,0 +1,92 @@
+*{
+  font-family: 'Lato', sans-serif;
+	box-sizing: border-box;
+}
+:root{
+  --primary-color: #3B4252;
+  --darkgray-color: #8190A5;
+  --lightgray-color: #ECEFF4;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+button,
+button:hover,
+button:active,
+button:focus{
+	border: none;
+	outline: 0;
+}
+input,
+input:hover,
+input:active,
+input:focus{
+	outline: 0;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: var(--darkgray-color);
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: var(--darkgray-color);
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: var(--darkgray-color);
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: var(--darkgray-color);
+}
+
+.d-flex{
+  display: flex;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 20px;
+}
+

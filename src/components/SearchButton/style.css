@@ -1,0 +1,17 @@
+.search__button{
+  background-color: #47525E;
+  color: var(--lightgray-color);
+  font-size: 22px;
+  font-style: italic;
+  display: inline-flex;
+  align-items: center;
+  height: 50px;
+  border-radius: 5px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.search__image{
+  max-width: 30px;
+  max-height: 30px;
+  margin-right: 5px;
+}

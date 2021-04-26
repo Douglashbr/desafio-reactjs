@@ -1,0 +1,50 @@
+.side-repos__container{
+  width: 100%;
+  max-width: calc(100% - 450px);
+  margin-left: auto;
+  padding: 30px 70px;
+}
+
+.side-repos__image{
+  width: 30px;
+  height: 30px;
+}
+
+.side-repos__title a{
+  font-size: 24px;
+  font-weight: 300;
+  font-style: italic;
+  color: var(--primary-color);
+  line-height: 34px;
+  text-decoration: none;
+}
+
+.side-repos__card{
+  margin-bottom: 28px;
+}
+
+.side-repos__description{
+  color: var(--primary-color);
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.side-repos_footer{
+  display: flex;
+  font-size: 20px;
+  color: var(--darkgray-color);
+  font-style: italic;
+  align-items: center;
+}
+
+.side-repos_footer span{
+  margin-left: 10px;
+}
+
+.side-repos__divider{
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background-color: var(--darkgray-color);
+  border-radius: 50%;
+}
